@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.TC_04VerifyFacebookLogin">
+        <methods>
+          <include name="setup"/>
+          <include name="test4"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.TC_04VerifyFacebookLogin -->
+      <class name="TestCases.TC_02VerifyDropdownSelectionAndFillTheForm">
+        <methods>
+          <include name="test2"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.TC_02VerifyDropdownSelectionAndFillTheForm -->
+      <class name="TestCases.TC_05VerifyResidentLogin">
+        <methods>
+          <include name="test5"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.TC_05VerifyResidentLogin -->
+      <class name="TestCases.TC_03VerifyEbookDownload">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- TestCases.TC_03VerifyEbookDownload -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
